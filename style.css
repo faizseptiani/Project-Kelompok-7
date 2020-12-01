@@ -210,3 +210,11 @@
                         opacity: 0;
                     }
                 }
+                
+                body img {
+                    margin-top: -70px;
+                    margin-left: 20px;
+                    width: 70px;
+                    height: auto;
+                    position: absolute;
+                }
