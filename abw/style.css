@@ -1,0 +1,222 @@
+                body {
+                    background-color: #343B45;
+                    font-family: 'Ubuntu', sans-serif;
+                    margin: 0;
+                }
+                
+                .main {
+                    background-color: #343B45;
+                    width: 400px;
+                    height: 450px;
+                    margin: 6em auto;
+                    border-radius: 1.5em;
+                    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+                }
+                
+                .sign {
+                    padding-top: 40px;
+                    color: #F89C04;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-weight: bold;
+                    font-size: 23px;
+                }
+                
+                .un {
+                    width: 76%;
+                    color: #ffffff;
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    background: rgba(138, 134, 134, 0.1);
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 20px;
+                    outline: none;
+                    box-sizing: border-box;
+                    border: 2px solid rgba(0, 0, 0, 0.02);
+                    margin-bottom: 50px;
+                    margin-left: 46px;
+                    text-align: center;
+                    margin-bottom: 27px;
+                    font-family: 'Ubuntu', sans-serif;
+                }
+                
+                form.form1 {
+                    padding-top: 40px;
+                }
+                
+                .pass {
+                    width: 76%;
+                    color: #ffffff;
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    background: rgba(136, 126, 126, 0.1);
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 20px;
+                    outline: none;
+                    box-sizing: border-box;
+                    border: 2px solid rgba(0, 0, 0, 0.02);
+                    margin-bottom: 50px;
+                    margin-left: 46px;
+                    text-align: center;
+                    margin-bottom: 27px;
+                    font-family: 'Ubuntu', sans-serif;
+                }
+                
+                .un:focus {
+                    border: 2px solid #F89C04 !important;
+                }
+                
+                .pass:focus {
+                    border: 2px solid #F89C04 !important;
+                }
+                
+                /*button signin login*/
+                .submit {
+                    cursor: pointer;
+                    border-radius: 5em;
+                    color: #fff;
+                    background: #F89C04;
+                    border: 0;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                    font-family: 'Ubuntu', sans-serif;
+                    margin-left: 35%;
+                    font-size: 16px;
+                    font-weight: 700;
+                    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+                }
+                
+               /* button login google account*/
+                .google {
+                    cursor: pointer;
+                    border-radius: 5em;
+                    color: #fff;
+                    background: #F89C04;
+                    border: 0;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                    font-family: 'Ubuntu', sans-serif;
+                    margin-left: 32%;
+                    font-size: 13px;
+                    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+                }
+                
+                .or {
+                    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+                    color: #F89C04;
+                    padding: 10px;
+                    font-size: 13px;
+                }
+                
+                .create {
+                    cursor: pointer;
+                    border: 0;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    padding-top: 20px;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 15px;
+                    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+                    color: #F89C04;
+                    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+                }
+                
+                a {
+                    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+                    color: #E1BEE7;
+                    text-decoration: none
+                }
+                
+                .box-area {
+                    padding: 0;
+                    margin: 0;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    z-index: -1;
+                }
+                
+                .box-area li {
+                    position: absolute;
+                    display: block;
+                    list-style: none;
+                    width: 25px;
+                    height: 25px;
+                    background: #F89C04;
+                    animation: animate 7s linear infinite;
+                    bottom: -150px;
+                }
+                
+                .box-area li:nth-child(1) {
+                    left: 86%;
+                    width: 80px;
+                    height: 80px;
+                    animation-delay: 0s;
+                }
+                
+                .box-area li:nth-child(2) {
+                    left: 12%;
+                    width: 30px;
+                    height: 30px;
+                    animation-delay: 1.5s;
+                    animation-duration: 10s;
+                }
+                
+                .box-area li:nth-child(3) {
+                    left: 70%;
+                    width: 100px;
+                    height: 100px;
+                    animation-delay: 5.5s;
+                }
+                
+                .box-area li:nth-child(4) {
+                    left: 42%;
+                    width: 150px;
+                    height: 150px;
+                    animation-delay: 0s;
+                    animation-duration: 10s;
+                }
+                
+                .box-area li:nth-child(5) {
+                    left: 65%;
+                    width: 40px;
+                    height: 40px;
+                    animation-delay: 0s;
+                }
+                
+                .box-area li:nth-child(6) {
+                    left: 15%;
+                    width: 110px;
+                    height: 110px;
+                    animation-delay: 3s;
+                }
+                
+                @keyframes animate {
+                    0% {
+                        transform: translateY(0) rotate(0deg);
+                        opacity: 1;
+                    }
+                    100% {
+                        transform: translateY(-800px) rotate(360deg);
+                        opacity: 0;
+                    }
+                }
+                
+                body img {
+                    margin-top: -70px;
+                    margin-left: 20px;
+                    width: 70px;
+                    height: auto;
+                    position: absolute;
+                }
